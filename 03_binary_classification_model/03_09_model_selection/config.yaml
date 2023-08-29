@@ -1,0 +1,21 @@
+models:
+  nn_base_model: '03_02_base_model/base_model.h5'
+  nn_acc_opt: '03_06_keras_tuner/acc_best_model/acc_best_model.h5'
+  nn_auc_opt: '03_06_keras_tuner/auc_best_model/auc_best_model.h5'
+  nn_loss_opt: '03_06_keras_tuner/loss_best_model/loss_best_model.h5'
+  nn_he_loss_opt: '03_06_keras_tuner/he_loss_best_model/he_loss_best_model.h5'
+  nn_bias_loss_opt: '03_06_keras_tuner/bias_loss_best_model/bias_loss_best_model.h5'
+  nn_he_bias_loss_opt: '03_06_keras_tuner/he_bias_loss_best_model/he_bias_loss_best_model.h5'
+  nn_he_acc_opt: '03_06_keras_tuner/he_acc_best_model/he_acc_best_model.h5'
+  nn_he_auc_opt: '03_06_keras_tuner/he_auc_best_model/he_auc_best_model.h5'
+  rfc: '03_07_random_forests/best_rfc.pkl'
+  abc: '03_08_adaboost/best_abc.pkl'
+scalers:
+  nn_scaler: '03_06_keras_tuner/scaler.pkl'
+data:
+  X_train: '03_01_data_split/X_train.csv'
+  X_val: '03_01_data_split/X_val.csv'
+  X_test: '03_01_data_split/X_test.csv'
+  y_train: '03_01_data_split/y_train.csv'
+  y_val: '03_01_data_split/y_val.csv'
+  y_test: '03_01_data_split/y_test.csv'

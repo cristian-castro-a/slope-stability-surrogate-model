@@ -1,0 +1,17 @@
+models:
+  acc_opt: 'acc_best_model/acc_best_model.h5'
+  auc_opt: 'auc_best_model/auc_best_model.h5'
+  loss_opt: 'loss_best_model/loss_best_model.h5'
+  he_loss_opt: 'he_loss_best_model/he_loss_best_model.h5'
+  bias_loss_opt: 'bias_loss_best_model/bias_loss_best_model.h5'
+  he_bias_loss_opt: 'he_bias_loss_best_model/he_bias_loss_best_model.h5'
+  he_acc_opt: 'he_acc_best_model/he_acc_best_model.h5'
+  he_auc_opt: 'he_auc_best_model/he_auc_best_model.h5'
+scaler: 'scaler.pkl'
+data:
+  X_train: '03_01_data_split/X_train.csv'
+  X_val: '03_01_data_split/X_val.csv'
+  X_test: '03_01_data_split/X_test.csv'
+  y_train: '03_01_data_split/y_train.csv'
+  y_val: '03_01_data_split/y_val.csv'
+  y_test: '03_01_data_split/y_test.csv'

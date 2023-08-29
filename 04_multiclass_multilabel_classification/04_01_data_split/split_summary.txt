@@ -1,0 +1,30 @@
+For y_train, No_Failure has 1599 cases which is: 0.62
+For y_train, Failure has 991 cases which is: 0.38
+For y_train, NF has 1599 cases which is: 0.62
+For y_train, RM has 179 cases which is: 0.07
+For y_train, DPF has 294 cases which is: 0.11
+For y_train, NPF has 121 cases which is: 0.05
+For y_train, DWF has 205 cases which is: 0.08
+For y_train, NWF has 311 cases which is: 0.12
+For y_train, the total amount of cases is: 2590
+--------------------------------------------------
+For y_val, No_Failure has 400 cases which is: 0.62
+For y_val, Failure has 248 cases which is: 0.38
+For y_val, NF has 400 cases which is: 0.62
+For y_val, RM has 45 cases which is: 0.07
+For y_val, DPF has 73 cases which is: 0.11
+For y_val, NPF has 30 cases which is: 0.05
+For y_val, DWF has 54 cases which is: 0.08
+For y_val, NWF has 74 cases which is: 0.11
+For y_val, the total amount of cases is: 648
+--------------------------------------------------
+For y_test, No_Failure has 353 cases which is: 0.62
+For y_test, Failure has 219 cases which is: 0.38
+For y_test, NF has 353 cases which is: 0.62
+For y_test, RM has 40 cases which is: 0.07
+For y_test, DPF has 66 cases which is: 0.12
+For y_test, NPF has 25 cases which is: 0.04
+For y_test, DWF has 47 cases which is: 0.08
+For y_test, NWF has 67 cases which is: 0.12
+For y_test, the total amount of cases is: 572
+--------------------------------------------------

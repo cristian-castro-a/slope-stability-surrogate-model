@@ -1,0 +1,12 @@
+For y_train, No_Failure has 1599 cases which is: 0.62
+For y_train, Failure has 991 cases which is: 0.38
+For y_train, the total amount of cases is: 2590
+--------------------------------------------------
+For y_val, No_Failure has 400 cases which is: 0.62
+For y_val, Failure has 248 cases which is: 0.38
+For y_val, the total amount of cases is: 648
+--------------------------------------------------
+For y_test, No_Failure has 353 cases which is: 0.62
+For y_test, Failure has 219 cases which is: 0.38
+For y_test, the total amount of cases is: 572
+--------------------------------------------------

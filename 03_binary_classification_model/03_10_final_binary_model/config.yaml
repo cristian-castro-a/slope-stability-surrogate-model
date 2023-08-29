@@ -1,0 +1,15 @@
+data:
+  X_train: '03_01_data_split/X_train.csv'
+  X_val: '03_01_data_split/X_val.csv'
+  X_test: '03_01_data_split/X_test.csv'
+  y_train: '03_01_data_split/y_train.csv'
+  y_val: '03_01_data_split/y_val.csv'
+  y_test: '03_01_data_split/y_test.csv'
+scaler: '03_06_keras_tuner/scaler.pkl'
+best_model: '03_06_keras_tuner/he_loss_best_model/he_loss_best_model.h5'
+to_compile:
+  loss: 'binary_crossentropy'
+  optimizer: 'Adam'
+  metrics: ['accuracy', 'Recall', 'AUC']
+to_train:
+  epochs: 15
