@@ -1,0 +1,14 @@
+/.idea
+
+/__pycache__
+
+/results
+
+/.ipynb_checkpoints
+
+*.prj
+*.temp
+*.lnk
+*.sav
+*.f3grid
+*.html
