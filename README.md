@@ -3,7 +3,7 @@ This repository builds up a surrogate model aimed at predicting the failure mech
 that exhibit two geological structures.
 
 Two steps are involved:
-1. **Dataset Generation**: It creates a dataset of results of multiple *FLAC3D* runs ('01_dataset_generation'). 
+1. **Dataset Generation (Not shared in this repository)**: It creates a dataset of results of multiple *FLAC3D* runs ('01_dataset_generation'). 
 These runs include a generic continuous slope and two interfaces, that represent the occurrence of geological 
 discontinuities. The setup of these runs are random, as each parameter that describes the model, the rock mass and 
 the interfaces is treated as a random variable. Each variable is thought as a normal distribution, whose parameters 
@@ -27,7 +27,7 @@ conda create --name myenv --file requirements.txt
 ```
 
 ## Project Structure
-1. **Dataset Generation:** The user must intervene only two files, before generating the dataset. These files are:
+1. **Dataset Generation (Not shared in this repository):** The user must intervene only two files, before generating the dataset. These files are:
    * [main.py](./main.py): Entry point for the Python program. Two parameters must be set here:
      * **ITERATIONS**: Number of models to run
      * **FILE_NAME**: Name of the .csv file that will summarize all the runs
